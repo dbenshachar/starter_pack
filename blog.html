@@ -3,11 +3,22 @@
   <head>
     <title>Blog #1: 9/26</title>
     <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
   </head>
   <body>
-    <div class="square-circle">
-      <nav></nav>
-      <main>
+    <header class="site-header">
+      <nav class="topnav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="square-circle">
         <section class="card header-card">
           <h1>Python Tutorial</h1>
         </section>
@@ -18,16 +29,10 @@
             To start, install PyCharm with your Cal Poly student email and write
             <code>print("Hello world")</code> — and then you are done!
           </p>
-
-          <p>
-            Lately, I have been seeing a lot of complaints on the blog for not
-            teaching well, so I have opened up
-            <a href="form.html">this form</a>
-            for you to voice your complaints.
-          </p>
         </section>
-      </main>
-    </div>
+      </div>
+    </main>
+
     <footer>© 2023 David Benshachar | All Rights Reserved</footer>
   </body>
 </html>
